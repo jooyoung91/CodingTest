@@ -10,3 +10,9 @@ D:\GitProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.pdb
 D:\GitProject\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe
 D:\GitProject\BinaryTree\BinaryTree\bin\Debug\BinaryTree.pdb
 D:\GitProject\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csprojResolveAssemblyReference.cache
+E:\GitProjects\Test\BinaryTree\bin\Debug\BinaryTree.exe.config
+E:\GitProjects\Test\BinaryTree\obj\Debug\BinaryTree.exe
+E:\GitProjects\Test\BinaryTree\obj\Debug\BinaryTree.pdb
+E:\GitProjects\Test\BinaryTree\bin\Debug\BinaryTree.exe
+E:\GitProjects\Test\BinaryTree\bin\Debug\BinaryTree.pdb
+E:\GitProjects\Test\BinaryTree\obj\Debug\BinaryTree.csprojResolveAssemblyReference.cache

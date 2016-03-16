@@ -14,3 +14,12 @@ D:\GitProject\BinaryTree\BinaryTreeTests\bin\Debug\BinaryTree.pdb
 D:\GitProject\BinaryTree\BinaryTreeTests\obj\Debug\BinaryTreeTests.csprojResolveAssemblyReference.cache
 D:\GitProject\BinaryTree\BinaryTreeTests\obj\Debug\BinaryTreeTests.dll
 D:\GitProject\BinaryTree\BinaryTreeTests\obj\Debug\BinaryTreeTests.pdb
+E:\GitProjects\Test\BinaryTreeTests\bin\Debug\BinaryTreeTests.dll
+E:\GitProjects\Test\BinaryTreeTests\bin\Debug\BinaryTreeTests.pdb
+E:\GitProjects\Test\BinaryTreeTests\bin\Debug\BinaryTree.exe
+E:\GitProjects\Test\BinaryTreeTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\GitProjects\Test\BinaryTreeTests\bin\Debug\BinaryTree.pdb
+E:\GitProjects\Test\BinaryTreeTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+E:\GitProjects\Test\BinaryTreeTests\obj\Debug\BinaryTreeTests.csprojResolveAssemblyReference.cache
+E:\GitProjects\Test\BinaryTreeTests\obj\Debug\BinaryTreeTests.dll
+E:\GitProjects\Test\BinaryTreeTests\obj\Debug\BinaryTreeTests.pdb

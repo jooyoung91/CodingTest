@@ -175,12 +175,13 @@ namespace Practice.Interface
 
         private void DeleteNode(ref Node<T> node)
         {
-            if (node.left != null)
+            if (node != null)
+            {
                 DeleteNode(ref node.left);
-            if (node.right != null)
                 DeleteNode(ref node.right);
-            node = null;
-            nodeCount--;
+                node = null;
+                nodeCount--;
+            }
         }
     }
 
