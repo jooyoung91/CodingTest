@@ -6,3 +6,11 @@ c:\users\jooyoung\documents\visual studio 2015\Projects\BinaryTree\BinaryTreeTes
 c:\users\jooyoung\documents\visual studio 2015\Projects\BinaryTree\BinaryTreeTests\obj\Debug\BinaryTreeTests.csprojResolveAssemblyReference.cache
 c:\users\jooyoung\documents\visual studio 2015\Projects\BinaryTree\BinaryTreeTests\obj\Debug\BinaryTreeTests.dll
 c:\users\jooyoung\documents\visual studio 2015\Projects\BinaryTree\BinaryTreeTests\obj\Debug\BinaryTreeTests.pdb
+D:\GitProject\BinaryTree\BinaryTreeTests\bin\Debug\BinaryTreeTests.dll
+D:\GitProject\BinaryTree\BinaryTreeTests\bin\Debug\BinaryTreeTests.pdb
+D:\GitProject\BinaryTree\BinaryTreeTests\bin\Debug\BinaryTree.exe
+D:\GitProject\BinaryTree\BinaryTreeTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\GitProject\BinaryTree\BinaryTreeTests\bin\Debug\BinaryTree.pdb
+D:\GitProject\BinaryTree\BinaryTreeTests\obj\Debug\BinaryTreeTests.csprojResolveAssemblyReference.cache
+D:\GitProject\BinaryTree\BinaryTreeTests\obj\Debug\BinaryTreeTests.dll
+D:\GitProject\BinaryTree\BinaryTreeTests\obj\Debug\BinaryTreeTests.pdb

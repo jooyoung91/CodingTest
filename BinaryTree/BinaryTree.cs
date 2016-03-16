@@ -131,7 +131,7 @@ namespace Practice.Interface
         public string InOrderTraversal()
         {
             InOrder(top);
-            string printList = nodeTravel.ToString();
+            string printList = nodeTravel.ToString().TrimEnd(',');
             nodeTravel.Clear();
             return printList;
 
@@ -143,7 +143,7 @@ namespace Practice.Interface
             {
                 InOrder(node.left);
                 // Add current node value to String Builder. 
-                nodeTravel.Append(node.printData());
+                nodeTravel.Append(string.Format("{0}{1}", node.printData(), ","));
                 InOrder(node.right);
             }
         }
