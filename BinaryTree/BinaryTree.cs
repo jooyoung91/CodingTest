@@ -129,9 +129,9 @@ namespace Practice.Interface
                 return result;
             else
             {
-                //Call recursive function to add new node. 
                 int curretnCount = nodeCount;
                 Delete(ref top, target);
+                //currentCount should be less then nodeCount if any of nodes has been deleted. 
                 return curretnCount != nodeCount;
             }
 
@@ -140,7 +140,9 @@ namespace Practice.Interface
         public string InOrderTraversal()
         {
             InOrder(top);
+            // Add current node to string builder. 
             string printList = nodeTravel.ToString().TrimEnd(',');
+            // Clear the string bulider. 
             nodeTravel.Clear();
             return printList;
 
@@ -161,12 +163,14 @@ namespace Practice.Interface
         {
             if (node != null)
             {
-                if (Comparer.DefaultInvariant.Compare(node.data, target) == 0)
+                if (node.data.Equals(target))
                 {
+                    //Delete current node and sub nodes. 
                     DeleteNode(ref node);
                 }
                 else
                 {
+                    // Keep searching the target node
                     Delete(ref node.left, target);
                     Delete(ref node.right, target);
                 }
@@ -177,6 +181,7 @@ namespace Practice.Interface
         {
             if (node != null)
             {
+                // Delete sub nodes. 
                 DeleteNode(ref node.left);
                 DeleteNode(ref node.right);
                 node = null;
