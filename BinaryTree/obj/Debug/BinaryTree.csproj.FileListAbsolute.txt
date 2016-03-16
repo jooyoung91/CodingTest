@@ -1,0 +1,6 @@
+c:\users\jooyoung\documents\visual studio 2015\Projects\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe.config
+c:\users\jooyoung\documents\visual studio 2015\Projects\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe
+c:\users\jooyoung\documents\visual studio 2015\Projects\BinaryTree\BinaryTree\bin\Debug\BinaryTree.pdb
+c:\users\jooyoung\documents\visual studio 2015\Projects\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csprojResolveAssemblyReference.cache
+c:\users\jooyoung\documents\visual studio 2015\Projects\BinaryTree\BinaryTree\obj\Debug\BinaryTree.exe
+c:\users\jooyoung\documents\visual studio 2015\Projects\BinaryTree\BinaryTree\obj\Debug\BinaryTree.pdb
