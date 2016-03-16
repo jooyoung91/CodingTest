@@ -124,8 +124,17 @@ namespace Practice.Interface
 
         public bool Delete(T target)
         {
+            bool result = false;
+            if (target == null)
+                return result;
+            else
+            {
+                //Call recursive function to add new node. 
+                int curretnCount = nodeCount;
+                Delete(ref top, target);
+                return curretnCount != nodeCount;
+            }
 
-            return false;
         }
 
         public string InOrderTraversal()
@@ -148,6 +157,31 @@ namespace Practice.Interface
             }
         }
 
+        private void Delete(ref Node<T> node, T target)
+        {
+            if (node != null)
+            {
+                if (Comparer.DefaultInvariant.Compare(node.data, target) == 0)
+                {
+                    DeleteNode(ref node);
+                }
+                else
+                {
+                    Delete(ref node.left, target);
+                    Delete(ref node.right, target);
+                }
+            }
+        }
+
+        private void DeleteNode(ref Node<T> node)
+        {
+            if (node.left != null)
+                DeleteNode(ref node.left);
+            if (node.right != null)
+                DeleteNode(ref node.right);
+            node = null;
+            nodeCount--;
+        }
     }
 
     public class CodingTest
