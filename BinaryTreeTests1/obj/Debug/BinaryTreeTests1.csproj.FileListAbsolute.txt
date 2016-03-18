@@ -1,0 +1,8 @@
+D:\GitProject\BinaryTree\BinaryTreeTests1\bin\Debug\BinaryTreeTests1.dll
+D:\GitProject\BinaryTree\BinaryTreeTests1\bin\Debug\BinaryTreeTests1.pdb
+D:\GitProject\BinaryTree\BinaryTreeTests1\bin\Debug\BinaryTree.exe
+D:\GitProject\BinaryTree\BinaryTreeTests1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\GitProject\BinaryTree\BinaryTreeTests1\bin\Debug\BinaryTree.pdb
+D:\GitProject\BinaryTree\BinaryTreeTests1\obj\Debug\BinaryTreeTests1.csprojResolveAssemblyReference.cache
+D:\GitProject\BinaryTree\BinaryTreeTests1\obj\Debug\BinaryTreeTests1.dll
+D:\GitProject\BinaryTree\BinaryTreeTests1\obj\Debug\BinaryTreeTests1.pdb

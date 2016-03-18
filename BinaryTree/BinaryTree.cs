@@ -141,7 +141,7 @@ namespace Practice.Interface
         {
             InOrder(top);
             // Add current node to string builder. 
-            string printList = nodeTravel.ToString().TrimEnd(',');
+            string printList = string.Format("[{0}]", nodeTravel.ToString().TrimEnd(','));
             // Clear the string bulider. 
             nodeTravel.Clear();
             return printList;

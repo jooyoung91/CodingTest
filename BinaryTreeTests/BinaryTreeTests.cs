@@ -21,10 +21,6 @@ namespace Practice.Test
         }
 
 
-        /// <summary>
-        /// Add non-duplicated value into the tree 
-        /// </summary>
-        /// 
         [TestMethod()]
         public void Add_Normal_Value_Node_Test()
         {
@@ -43,7 +39,7 @@ namespace Practice.Test
                 if (!result)
                     break;
             }
-            Assert.IsFalse(result); // should return false since the node value is already present. 
+            Assert.IsFalse(result);
         }
         [TestMethod()]
         public void NodeCount_Test()
@@ -133,6 +129,22 @@ namespace Practice.Test
                        where s == (60).ToString()
                        select s;
             Assert.IsTrue(find.FirstOrDefault() == null);
+        }
+
+        [TestMethod]
+        public void Delete_All_Node_And_Print_Blank_Tree()
+        {
+            int[] values = GetUniqueValues();
+            foreach (int i in values)
+            {
+                _mock.Add(i);
+            }
+            foreach(int i in values.OrderByDescending( t => t))
+            {
+                _mock.Delete(i);
+            }
+            string printValues = _mock.InOrderTraversal();
+            Assert.IsTrue(printValues == string.Empty);
         }
 
         public int[] GetUniqueValues()
